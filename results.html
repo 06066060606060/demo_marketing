@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,301,701,300,501,401,901,400&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link crossorigin="anonymous" href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <script crossorigin="anonymous" defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animate.min.css" />
+    <title>Home</title>
+</head>
+
+<body class="bg-gray-50">
+    <!-- ________________________________________BlocK 1_+_navbar____________________________________________ -->
+    <div class="block1"></div>
+    <header class="max-w-screen-xl px-4 mx-auto pt-3">
+        <div class="flex items-center justify-between h-16">
+            <div class="flex-1 md:flex md:items-center md:gap-12">
+
+                <a href="/"><h1 class="text-3xl font-bold text-white">Your Company</h1></a>
+
+            </div>
+
+            <div class="md:flex md:items-center md:gap-12">
+                <nav class="hidden md:block" aria-labelledby="header-navigation">
+                    <h2 class="sr-only" id="header-navigation"></h2>
+
+                    <ul class="flex items-center gap-6 text-base font-bold">
+                        <li>
+                            <a class="text-white transition-colors duration-300 transform hover:text-gray-600"
+                                href="./">
+                                Home
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="text-white transition-colors duration-300 transform hover:text-gray-600 pt-8" href="./how.html">
+                                How it works
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class=" transition-colors duration-300 transform text-[#1F2D49]" href="./results.html">
+                                Results
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-white transition-colors duration-300 transform hover:text-gray-600" href="./faq.html">
+                                FAQ
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-white transition-colors duration-300 transform hover:text-gray-600" href="./">
+                                Login
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <div class="flex items-center gap-4">
+                    <div class="hidden md:flex lg:flex">
+                        <a class="px-5 py-2.5 text-sm text-gray-700 bg-white rounded-lg font-black  transition-colors duration-300 transform hover:bg-blue-800 hover:text-white shadow-md"
+                            href="./">
+                            CONTACT US
+                        </a>
+                    </div>
+                    <!-- menu mobile -->
+                    <div class="block md:hidden" id="scrollM">
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox" />
+                            <label class="menu__btn" for="menu__toggle">
+                                <span></span>
+                            </label>
+
+                            <ul class="menu__box">
+                                <li><a class="menu__item" href="./index.html">Home</a></li>
+                                <li><a class="menu__item" href="./how.html">How it works</a></li>
+                                <li><a class="menu__item" href="./results.html">Results</a></li>
+                                <li><a class="menu__item" href="./faq.html">FAQ</a></li>
+                                <li><a class="menu__item" href="#">Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ________________________________________our results______________________________________________ -->
+    <section>
+        <div class="">
+        <div class="max-w-screen-xl mx-auto">
+            <card class="text-gray-600 md:px-8 px-2">
+                <div class="container mx-auto flex lg:px-5 md:flex-row flex-col items-center py-16">
+                    <div
+                        class="lg:flex-grow md:w-1/2 lg:pr-14 md:pl-14 flex flex-col md:items-start md:text-left md:mb-0 text-center mx-8 md:mx-0">
+                        <h1 class="text-4xl md:text-5xl my-6 font-black text-white capitalize text-left">What<br>
+                             is Lorem Ipsum?</h1>
+                        <div id="stats1 px-4">
+                            <p
+                                class="block leading-relaxed text-gray-800 font-medium text-left md:w-full w-3/4 text-xl">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, </p>
+                            <p class="block leading-relaxed text-black font-black text-left pt-4 text-xl">Start today
+                                and see
+                                the results tomorrow.</p>
+                        </div>
+                    </div>
+                    <div class="lg:max-w-2xl md:w-1/2 w-full">
+                        <img class="object-cover object-center" alt="" src="./img/stats2.png">
+                    </div>
+
+                </div>
+            </card>
+        </div>
+    </section>
+
+    <!-- ________________________________________details of our stats -->
+    <img class="doghnut00" src="./img/Ellips33.png">
+  
+    <section class="pt-10 md:pt-20">
+       
+        <div class="max-w-screen-xl mx-auto">
+            <div class="flex flex-col text-center">
+                <h1 class="text-4xl md:text-5xl my-6 font-black text-gray-900 capitalize">Details of the Sequency</h1>
+                <p class="block leading-relaxed text-gray-500 font-medium mx-auto px-8 text-xl max-w-3xl">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,.</p>
+                <div class="flex flex-col lg:flex-row py-8">
+                    <img class="object-center object-scale-down max-h-full md:w-1/2 m-4" src="./img/stat1.png" alt="">
+                    <div class="flex flex-col">
+                        <div>
+                            <h1 class="text-4xl m-6 font-black text-gray-900 capitalize pt-8 pb-4 px-4 md:px-2 lg:px-0 lg:text-left">Why do we use it?</h1>
+                            <p class="block leading-relaxed text-gray-500 font-medium text-left text-xl px-8">It is a
+                                long
+                                established fact that a reader will be distracted by the readable content of a page when
+                                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                                normal
+                                distribution of letters, as opposed to using 'Content here, content here', making it</p>
+                        </div>
+                        <ul role="list" class="mt-4 text-lg md:text-xl align-center font-medium mx-12 md:mx-8 pt-6">
+                            <li class="flex">
+                                <div class="inline-flex items-center w-10 h-10 rounded-xl">
+                                    <img src="./img/check2.png" alt="">
+                                </div>
+                                <span class="ml-3 text-gray-500 text-left">Avg. 400+ Reel Organic Followers/week</span>
+                            </li>
+                            <li class="flex">
+                                <div class="inline-flex items-center w-10 h-10  rounded-xl">
+                                    <img src="./img/check2.png" alt="">
+                                </div>
+                                <span class="ml-3 text-gray-500 text-left">Targeted Audience Audience </span>
+                            </li>
+                            <li class="flex">
+                                <div class="inline-flex items-center w-10 h-10  rounded-xl">
+                                    <img src="./img/check2.png" alt="">
+                                </div>
+                                <span class="ml-3 text-gray-500 text-left">7 Days Free Trial Audience Audience</span>
+                            </li>
+                            <li class="flex">
+                                <div class="inline-flex items-center w-10 h-10  rounded-xl">
+                                    <img src="./img/check2.png" alt="">
+                                </div>
+                                <span class="ml-3 text-gray-500 text-left">Intelligent Grow Audience th v</span>
+                            </li>
+                            <li class="flex">
+                                <div class="inline-flex items-center w-10 h-10 rounded-xl">
+                                    <img src="./img/check2.png" alt="">
+                                </div>
+                                <span class="ml-3 text-gray-500 text-left">Exclusive Audience access to weekly updates</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex flex-col lg:flex-row-reverse lg:pl-8">
+                    <div class="flex justify-center">
+                        <img class="object-scale-down object-center md:w-3/4" alt="" src="./img/stats3.png">
+                    </div>
+                    <div class="lg:w-1/2 w-full">
+                        <h1 class="text-4xl my-6 font-black text-gray-900 capitalize pt-8 px-4">Where does it come from?</h1>
+                        <p class="block leading-relaxed text-gray-500 font-medium text-left text-lg md:text-xl px-6 mx-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                            <br>
+                            <p class="block leading-relaxed text-gray-500 font-medium text-left text-lg md:text-xl px-6 mx-4">It is a long
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    </div>
+                    <img class="doghnut01" src="./img/Ellips44.png">
+                </div>
+                
+                <div class="flex flex-col lg:flex-row pb-32">
+                    <div class="flex lg:max-w-2xl w-full justify-center">
+                        <img class="object-scale-down object-center md:w-[90%]" alt="" src="./img/yout.png">
+                    </div>
+                    <div class="lg:w-1/2 w-full">
+                        <h1 class="text-4xl my-6 font-black text-gray-900 capitalize pt-8 lg:text-left px-6">Where can I get some?</h1>
+                        <p class="block leading-relaxed text-gray-500 font-medium text-left text-lg md:text-xl px-6 mx-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                            <ul role="list" class="mt-4 font-medium text-lg md:text-xl align-center mx-8 pt-6">
+                                <li class="flex">
+                                    <div class="inline-flex items-center w-10 h-10 rounded-xl">
+                                        <img src="./img/check2.png" alt="">
+                                    </div>
+                                    <span class="ml-3 text-gray-500 text-left">Avg. 400+ Reel Organic Followers/week</span>
+                                </li>
+                                <li class="flex">
+                                    <div class="inline-flex items-center w-10 h-10  rounded-xl">
+                                        <img src="./img/check2.png" alt="">
+                                    </div>
+                                    <span class="ml-3 text-gray-500 text-left">Targeted Audience Audience Audience</span>
+                                </li>
+                                <li class="flex">
+                                    <div class="inline-flex items-center w-10 h-10  rounded-xl">
+                                        <img src="./img/check2.png" alt="">
+                                    </div>
+                                    <span class="ml-3 text-gray-500 text-left">7 Days Free Trial Audience Audience</span>
+                                </li>
+                                <li class="flex">
+                                    <div class="inline-flex items-center w-10 h-10  rounded-xl">
+                                        <img src="./img/check2.png" alt="">
+                                    </div>
+                                    <span class="ml-3 text-gray-500 text-left">Intelligent Grow Audience th v</span>
+                                </li>
+                                <li class="flex">
+                                    <div class="inline-flex items-center w-10 h-10 rounded-xl">
+                                        <img src="./img/check2.png" alt="">
+                                    </div>
+                                    <span class="ml-3 text-gray-500 text-left">Exclusive Audience access to weekly updates</span>
+                                </li>
+                            </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ________________________________________footer______________________________________________ -->
+
+    <footer class="bg-white mx-auto flex flex-col justify-center">
+        <div class="max-w-screen-xl py-16 mx-auto px-8">
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <div>
+                    <a href="/"><h1 class="text-3xl font-bold ">Your Company</h1></a>
+
+                    <p class="max-w-md mt-4 text-sm text-gray-500">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum..
+                    </p>
+                    <p class="mt-8 text-xs text-black">
+                        &copy; My Compagny Ltd. 2022. All rights reserved
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
+                    <div>
+                        <p class="font-medium">
+                            Menu
+                        </p>
+
+                        <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                            <a class="hover:opacity-75" href=""> How it works </a>
+                            <a class="hover:opacity-75" href=""> Results </a>
+                            <a class="hover:opacity-75" href=""> Sign up </a>
+                            <a class="hover:opacity-75" href=""> Login </a>
+                        </nav>
+                    </div>
+
+                    <div>
+                        <p class="font-medium">
+                            Social
+                        </p>
+
+                        <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                            <li class="flex">
+                                <div class="inline-flex items-center w-4 h-4 rounded-xl pt-1 pr-1">
+                                    <img class="" src="./img/eva_facebook-fill.png" alt="">
+                                </div>
+                                <a class="hover:opacity-75" href="">Facebook</a>
+                            </li>
+                            <li class="flex">
+                                <div class="inline-flex items-center w-4 h-4 rounded-xl pt-1 pr-1">
+                                    <img src="./img/ant-design_instagram-filled.png" alt="">
+                                </div>
+                                <a class="hover:opacity-75" href="">Instagram</a>
+                            </li>
+                            <li class="flex">
+                                <div class="inline-flex items-center w-4 h-4 rounded-xl pt-1 pr-1">
+                                    <img src="./img/akar-icons_youtube-fill.png" alt="">
+                                </div>
+                                <a class="hover:opacity-75" href="">Youtube</a>
+                            </li>
+                            <li class="flex">
+                                <div class="inline-flex items-center w-4 h-4 rounded-xl pt-1 pr-1">
+                                    <img src="./img/akar-icons_linkedin-fill.png" alt="">
+                                </div>
+                                <a class="hover:opacity-75" href="">LinkedIn</a>
+                            </li>
+                            <li class="flex">
+                                <div class="inline-flex items-center w-4 h-4 rounded-xl pt-1 pr-1">
+                                    <img src="./img/bxl_patreon.png" alt="">
+                                </div>
+                                <a class="hover:opacity-75" href="">Patreon</a>
+                            </li>
+                        </nav>
+                    </div>
+
+                    <div>
+                        <p class="font-medium">
+                            Legal
+                        </p>
+
+                        <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                            <a class="hover:opacity-75" href=""> Terms & Conditions </a>
+                            <a class="hover:opacity-75" href=""> Privacy policy </a>
+                        </nav>
+                    </div>
+
+                    <div>
+                        <p class="font-medium">
+                            Contact
+                        </p>
+
+                        <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                            <a class="hover:opacity-75" href=""> contact@mymail.com </a>
+                            <a class="hover:opacity-75" href=""> (024) 214 2151 24 </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+    </footer>
+</body>
+<script>
+
+
+</script>
+
+</html>
